@@ -89,7 +89,7 @@ footer{
     margin-left: 10px;
     height: 5em;
     object-fit: fill;
-     background-position: bottom right;
+    background-position: right;
 }
 
 table{
