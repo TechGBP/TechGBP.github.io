@@ -99,12 +99,6 @@ table{
     border-color: rgb(240, 248, 255);
 }
 
-.links{
-    color: blue;
-    text-decoration: none;
-    transition: color 0.4s ease;
-}
-
 a{
     color: rgb(128, 128, 0);
     background-color: rgb(240, 201, 233);
