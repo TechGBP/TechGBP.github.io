@@ -34,6 +34,7 @@ ul{
     gap: 20px;
 }
 
+
 .About {
     padding: 10px;
     margin: 10px;
@@ -58,6 +59,7 @@ ul{
     }
 }
 
+
 .Contact {
    padding: 10px;
     margin: 10px;
@@ -68,6 +70,26 @@ ul{
     p {
     background-color: rgb(158, 63, 247); 
     }
+}
+
+.About1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 20px;
+}
+
+
+.Projects1{
+   font-size: 20px;
+    text-align: center;
+    font-weight: 20px;
+}
+
+
+.Contact1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 20px;
 }
 
 
