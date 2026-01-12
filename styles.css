@@ -82,3 +82,8 @@ footer{
     color: rgb(37, 36, 120) ;
     background-color: rgb(186, 203, 255);
 }
+
+img{
+    padding: 10px;
+    size: 45%;
+}
