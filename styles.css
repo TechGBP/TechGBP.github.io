@@ -85,6 +85,8 @@ footer{
 
 
 .Image{
+    width: 300px;
+    height: 200px;
     margin-left: 10px;
     object-fit: fill;
     background-position: right;
