@@ -101,6 +101,7 @@ table{
 
 td{
     max-width: 60%;
+    min-width: 100%;
     height: auto;
 }
 
