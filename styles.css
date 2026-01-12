@@ -64,7 +64,8 @@ ul{
     border-style: groove;
     border-color:rgb(116, 3, 221);
     border-width: 10px;
-     p {
+    background-color: rgb(158, 63, 247); 
+    p {
     background-color: rgb(158, 63, 247); 
     }
 }
