@@ -93,8 +93,8 @@ table{
     border-color: rgb(240, 248, 255);
 .Image{
     margin-left: 10px;
-    height: auto;
-    width: auto;
+    height: 3.5fr;
+    width: 3.5fr;
     object-fit: fill;
     background-position: right;
 }
