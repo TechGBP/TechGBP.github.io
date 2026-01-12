@@ -35,9 +35,6 @@ ul{
     border-width: 10px;
     background-color: rgb(226, 196, 162);
 }
-p:first-of-type {
-    background-color: rgb(226, 196, 162);
-}
 
 .Projects {
     padding: 10px;
@@ -52,9 +49,9 @@ p:first-of-type {
    padding: 10px;
     margin: 10px;
     border-style: groove;
-    border-color: rgb(225, 0, 255);
+    border-color:rgb(116, 3, 221);
     border-width: 10px;
-    background-color: #df719f;  
+    background-color: #9e3ff7;  
 }
 
 
