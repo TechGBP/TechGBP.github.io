@@ -116,7 +116,7 @@ table{
 }
 
 td{
-    width: 700px;
+    width: max-content;
     height: auto;
 }
 
