@@ -127,7 +127,17 @@ table{
     border-style: double;
     border-width: 7px;
     border-color: rgb(240, 248, 255);
+    /* Added by Proj Jen Wright*/
+    table-layout: fixed;
+    /*End of add table-layout*/
 }
+
+/*Added by Prof Jen Wright*/
+td img {
+  max-width: 100%;
+  height: auto; /* Maintains aspect ratio */
+}
+/* end of addition*/
 
 td{
     width: 700px;
@@ -150,4 +160,5 @@ a:hover{
     background-color: rgb(202, 240, 201)
 
 } 
+
 
