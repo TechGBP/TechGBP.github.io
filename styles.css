@@ -84,18 +84,21 @@ footer{
 }
 
 
-.Image{
-    margin-left: 10px;
-    height: auto;
-    object-fit: fill;
-    background-position: right;
-}
+
 
 table{
     column-width: 350px;
     border-style: double;
     border-width: 7px;
     border-color: rgb(240, 248, 255);
+.Image{
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+    object-fit: fill;
+    background-position: right;
+}
+
 }
 
 a {
