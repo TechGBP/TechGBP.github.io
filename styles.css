@@ -49,6 +49,11 @@ ul{
     background-color: rgb(226, 196, 162);
     }
 }
+/* Add hover -- Prof JW*/
+.About:hover{
+  transform: scale(1.01);
+}
+/*End hover*/
 
 .Projects {
     padding: 10px;
@@ -61,7 +66,11 @@ ul{
     background-color: rgb(113, 223, 180);
     }
 }
-
+/* Add hover -- Prof JW*/
+.Projects:hover{
+  transform: scale(1.01);
+}
+/*End hover*/
 
 .Contact {
     padding: 10px;
@@ -141,3 +150,4 @@ a:hover{
     background-color: rgb(202, 240, 201)
 
 } 
+
