@@ -1,58 +1,101 @@
-<html lang="en">
-<head>
-<title> Welcome to My Index Page!</title>
-<h1>  Welcome to My Index Page!</h>
+@charset "utf-8";
 
-<nav>
-<ul class="horizontal-list">
-<li><a href="https://github.com/TechGBP/SDC260-Web"> About </a></li>
-<li><a href="https://github.com/TechGBP/SDC260-Web/projects?query=is%3Aopen"> Projects </a></li>
-<li><a href="https://github.com/TechGBP"> Contact </a> </li>
-</ul>
-</nav>
+/*
+This is my style sheet
+Author: Gabriela Balanta
+*/
 
-<meta charset="utf-8">
-<link rel="stylesheet" href="styles.css" >
-</head>
+html {
+    background-color: rgb(240, 201, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
 
-<body>
- 
-<div class="About"  >
-    <h1 class="About1">About</h1>
-    <p class="p1"> This is the about section</p>
-</div>
+header {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 5px;
+  padding: 10px;
+  background-color : rgb(247, 163, 247);
+}
 
-<div class="Projects">
-    <h1 class="Projects1"> Projects</h1>
-    <p class="p2"> This is the projects session</p>
-    
-    <table>
-        <tr>
-            <th colspan="3"> My Projects</th>
-        </tr>
-        <tr>
-            <th>2.9 Edit</th>
-            <td>This is one project. It deals with my html code and css iterations for 2.9.<img class="Image" src="2-9 EditGabyB.png"> </td>
-        </tr>
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 15px;
+}
+div > h1{
+    font-size: 30px;
+}
 
-        <tr>
-            <th>Web Interface Design Project</th>
-            <td>This was the first project I created in my course <img class="Image" src="WIDP-GabyB.png"></td>
-        </tr>
-        <tfoot >
-            <tr>
-                <td colspan="2" class="Table-Foot"> Copyright &copy; January 2026</td>
-            </tr> 
-        </tfoot>
-    </table>
-</div>
+ul{
+    list-style-type: none;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+}
 
-<div class="Contact">
-    <h1 class="Contact1"> Contact</h1>
-    <p class="p3">This is the contacts section</p>
-</div>
 
-<footer> &copy December 17,2025</footer>
+.About {
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-color: orange;
+    border-width: 10px;
+    background-color: rgb(226, 196, 162);
+    p {
+    background-color: rgb(226, 196, 162);
+    }
+}
 
-</body>
-</html>
+.Projects {
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-color: rgb(31, 179, 98);
+    border-width: 10px;
+    background-color: rgb(113, 223, 180);
+    p {
+    background-color: rgb(113, 223, 180);
+    }
+}
+
+
+.Contact {
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-color:rgb(116, 3, 221);
+    border-width: 10px;
+    background-color: rgb(174, 115, 230); 
+    p {
+    background-color: rgb(174, 115, 230); 
+    }
+}
+
+
+footer{
+    font-size: smaller;
+    text-align: center;
+    color: rgb(37, 36, 120) ;
+    background-color: rgb(186, 203, 255);
+}
+
+
+.Image{
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+    object-fit: fill;
+    background-position: right;
+}
+
+table{
+    column-width: 350px;
+    border-style: double;
+    border-width: 7px;
+    border-color: rgb(240, 248, 255);
+}
+

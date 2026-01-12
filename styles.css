@@ -85,9 +85,9 @@ footer{
 
 
 .Image{
-    vertical-align: text-bottom;
     margin-left: 10px;
     height: auto;
+    width: auto;
     object-fit: fill;
     background-position: right;
 }
