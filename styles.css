@@ -88,4 +88,5 @@ footer{
     vertical-align: text-bottom;
     margin-left: 10px;
     height: 1em;
+    object-fit: scale-down;
 }
