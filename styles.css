@@ -4,3 +4,16 @@
 This is my style sheet
 Author: Gabriela Balanta
 */
+
+html {
+  backgound-color: F0C9E9;
+font-style: Arial, Helvetica;
+}
+
+header {
+  text-align: center;
+  font-size: 15;
+  font-weight: 5;
+  padding: 10;
+  backgound-color: D3C9F0;
+}
