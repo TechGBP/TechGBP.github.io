@@ -49,11 +49,10 @@ ul{
     background-color: rgb(226, 196, 162);
     }
 }
-/* Add hover -- Prof JW*/
+
 .About:hover{
-  transform: scale(1.01);
+    transform: scale(1.01);
 }
-/*End hover*/
 
 .Projects {
     padding: 10px;
@@ -66,11 +65,10 @@ ul{
     background-color: rgb(113, 223, 180);
     }
 }
-/* Add hover -- Prof JW*/
+
 .Projects:hover{
-  transform: scale(1.01);
+    transform: scale(1.01);
 }
-/*End hover*/
 
 .Contact {
     padding: 10px;
@@ -83,13 +81,10 @@ ul{
     background-color: rgb(174, 115, 230); 
     }
 }
-/* Add hover -- Prof JW*/
+
 .Contact:hover{
-  transform: scale(1.01);
+    transform: scale(1.01);
 }
-/*End hover*/
-
-
 
 footer{
     font-size: smaller;
@@ -100,8 +95,8 @@ footer{
 
 
 .Image{
-    width: auto;
-    height: auto;
+    width: 450px;
+    height: 300px;
     margin-left: 10px;
     object-fit: fill;
     background-position: right;
@@ -127,21 +122,17 @@ table{
     border-style: double;
     border-width: 7px;
     border-color: rgb(240, 248, 255);
-    /* Added by Proj Jen Wright*/
     table-layout: fixed;
     width: 100%;
-    /*End of add table-layout*/
 }
-
-/*Added by Prof Jen Wright*/
-td img {
-  max-width: 100%;
-  height: auto; /* Maintains aspect ratio */
-}
-/* end of addition*/
 
 td{
-    width: 700px;
+    width: 500px;
+    height: auto;
+}
+
+td img{
+    max-width: 100%;
     height: auto;
 }
 
@@ -159,8 +150,4 @@ a {
 a:hover{
     color: rgb(105, 7, 7);
     background-color: rgb(202, 240, 201)
-
 } 
-
-
-
