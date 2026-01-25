@@ -6,15 +6,49 @@ Author: Gabriela Balanta
 */
 
 html {
-    background-color: rgb(110, 133, 197);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 2px;
-    
+    font-size: 15px;
 }
 
 body{
     display: flex;
 }
+
+
+input{
+    transition:  rgb(128, 128, 0) 0.3s ease;
+    color: rgb(128, 128, 0);
+    background-color: rgb(240, 201, 233);
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid rgb(128, 128, 0);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+input:hover{
+    color: rgb(105, 7, 7);
+    background-color: rgb(202, 240, 201)
+} 
+
+textarea{
+    transition:  rgb(128, 128, 0) 0.3s ease;
+    color: rgb(128, 128, 0);
+    background-color: rgb(240, 201, 233);
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid rgb(128, 128, 0);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+ 
+textarea:hover{
+    color: rgb(105, 7, 7);
+    background-color: rgb(202, 240, 201)
+} 
+
+
+
 
 @media screen and (min-width: 480px) {
     body {

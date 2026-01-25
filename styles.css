@@ -6,6 +6,7 @@ Author: Gabriela Balanta
 */
 
 html {
+    display: flex;
     background-color: rgb(240, 201, 233);
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -30,6 +31,7 @@ div > h1{
 }
 
 ul{
+    display: flex;
     list-style-type: none;
     padding: 15px;
     margin: 15px;
@@ -151,3 +153,16 @@ a:hover{
     color: rgb(105, 7, 7);
     background-color: rgb(202, 240, 201)
 } 
+
+
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: rgb(110, 133, 197);
+        font-size: 15px;
+    }
+
+    .container {
+        width: 450px; 
+    }
+}
