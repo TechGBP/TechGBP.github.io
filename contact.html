@@ -15,23 +15,20 @@
 <form id="myForm" action="gabbal4635@students.ecpi.edu" method="POST" enctype="text/plain">
 
 <label for="senderName">Sender Name:</label>
-<input type="text" id="senderName" name="senderName" required>
+<input type="text" id="senderName" name="senderName" required><br><br>
 
-    <br>
+<label for="emailAddress">Email Address:</label><br>
+<input type="email" id="emailAddress" name="emailAddress" required><br><br>
 
-    <label for="emailAddress">Email Address:</label>
-    <input type="email" id="emailAddress" name="emailAddress" required>
+<label for="Subject">Subject</label><br>
+<input type="text" id="subject01" name="subject"><br><br>
 
-    <label for="Subject">Subject</label>
-    <input type="text" id="subject01" name="subject">
-    <br>
-
-    <textarea id="message" name="Message" rows="5"> </textarea><br><br>
+<label for="message">Message:</label><br>
+<textarea id="message" name="Message" rows="5"> </textarea><br><br>
    
-    <button onclick="history.back()">Back</button>
-    
+<button onclick="history.back()">Back</button>
+<button type="submit" value="Submit">
 </form>
-
 
 </body> 
 </html>
