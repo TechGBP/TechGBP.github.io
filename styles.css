@@ -51,7 +51,7 @@ ul{
 }
 
 .About:hover{
-    transform: scale(1.2);
+    transform: scale(1.01);
 }
 
 .Projects {
@@ -67,7 +67,7 @@ ul{
 }
 
 .Projects:hover{
-    transform: scale(1.2);
+    transform: scale(1.01);
 }
 
 .Contact {
@@ -83,7 +83,7 @@ ul{
 }
 
 .Contact:hover{
-    transform: scale(1.2);
+    transform: scale(1.01);
 }
 
 footer{
